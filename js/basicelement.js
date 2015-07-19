@@ -17,10 +17,10 @@ $(function() {
 	
 	// inizialize bookmark
 	var current = window.location.hash ? window.location.hash : '#home';
-	$('.nav a[href=' + current + ']').parent().addClass('active');
+	$('.navbar a[href=' + current + ']').parent().addClass('active');
 	
 	// click and go
-	$('.nav a').click(function(e){
+	$('.navbar a').click(function(e){
 		e.preventDefault();
 		var current = $(this).attr('href');
 		$.scrollTo(current, 1000, {
@@ -36,7 +36,7 @@ $(function() {
 		$('[data-spy="scroll"]').each(function () {
 			var $spy = $(this).scrollspy('refresh');
 		});
-		var current = $('.nav li.active a').attr('href');
+		var current = $('.navbar li.active a').attr('href');
 		$.scrollTo(current, 1000, { easing: 'easeInOutCubic' });
 		location.hash = current;
 	})
