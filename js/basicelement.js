@@ -19,17 +19,23 @@ $(function() {
 	var current = window.location.hash ? window.location.hash : '#home';
 	$('.navbar a[href=' + current + ']').parent().addClass('active');
 	
-	// click and go
-	$('.navbar a').click(function(e){
-		e.preventDefault();
-		var current = $(this).attr('href');
-		$.scrollTo(current, 1000, {
-			easing: 'easeInOutCubic',
-			onAfter: function(){
-				location.hash = current;
-			}
-		})
-	})
+
+	$(document).ready(function(){
+
+	 $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+	  e.preventDefault();
+
+	  var target = this.hash,
+	  $target = $(target);
+
+	  $('html, body').stop().animate({
+	   'scrollTop': $target.offset().top
+	  }, 2500, 'swing', function () {
+	   window.location.hash = target;
+	  });
+	 });
+
+	});
 	
 	// resize stuff
 	$(window).resize(function(){
