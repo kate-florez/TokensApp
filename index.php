@@ -1,11 +1,16 @@
+<?php
+require 'vendor\phpmailer\phpmailer\PHPMailerAutoload.php';
+
+?>
+
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-    <title>TokensApp</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>TokensApp</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
         <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -292,126 +297,126 @@
                             <div class="tab-content">
                                 <div class="tab-pane active" id="tab1">
                                     <p>							
-                                        <div class="dg-container">
-                                            <div class="dg-wrapper">
-                                                <a ><img src="img/iphone_gallery/all/side/s-chat01.png" alt="image01"><div>Public Chats</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-chat02.png" alt="image02"><div>Public Chats</div></a>
+                                    <div class="dg-container">
+                                        <div class="dg-wrapper">
+                                            <a ><img src="img/iphone_gallery/all/side/s-chat01.png" alt="image01"><div>Public Chats</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-chat02.png" alt="image02"><div>Public Chats</div></a>
 
-                                                <a ><img src="img/iphone_gallery/all/side/s-dialog01.png" alt="image03"><div>Dialogs</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dialog02.png" alt="image04"><div>Dialogs</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dialog03.png" alt="image05"><div>Dialogs</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dialog04.png" alt="image06"><div>Dialogs</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dialog06.png" alt="image07"><div>Dialogs</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dialog07.png" alt="image08"><div>Dialogs</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dialog01.png" alt="image03"><div>Dialogs</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dialog02.png" alt="image04"><div>Dialogs</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dialog03.png" alt="image05"><div>Dialogs</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dialog04.png" alt="image06"><div>Dialogs</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dialog06.png" alt="image07"><div>Dialogs</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dialog07.png" alt="image08"><div>Dialogs</div></a>
 
-                                                <a ><img src="img/iphone_gallery/all/side/s-contacts01.png" alt="image09"><div>Contacts</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-contacts02.png" alt="image10"><div>Contacts</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-contacts03.png" alt="image11"><div>Contacts</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-contacts04.png" alt="image12"><div>Contacts</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-contacts05.png" alt="image13"><div>Contacts</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-contacts01.png" alt="image09"><div>Contacts</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-contacts02.png" alt="image10"><div>Contacts</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-contacts03.png" alt="image11"><div>Contacts</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-contacts04.png" alt="image12"><div>Contacts</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-contacts05.png" alt="image13"><div>Contacts</div></a>
 
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups01.png" alt="image14"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups02.png" alt="image15"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups03.png" alt="image16"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups04.png" alt="image17"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups05.png" alt="image18"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups06.png" alt="image19"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups07.png" alt="image20"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups08.png" alt="image21"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups09.png" alt="image22"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups10.png" alt="image23"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups01.png" alt="image14"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups02.png" alt="image15"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups03.png" alt="image16"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups04.png" alt="image17"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups05.png" alt="image18"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups06.png" alt="image19"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups07.png" alt="image20"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups08.png" alt="image21"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups09.png" alt="image22"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups10.png" alt="image23"><div>Groups</div></a>
 
-                                                <a ><img src="img/iphone_gallery/all/side/reg_side01.png" alt="image24"><div>Registration</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/reg_side02.png" alt="image25"><div>Registration</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/reg_side03.png" alt="image26"><div>Registration</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/reg_side01.png" alt="image24"><div>Registration</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/reg_side02.png" alt="image25"><div>Registration</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/reg_side03.png" alt="image26"><div>Registration</div></a>
 
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark01.png" alt="image27"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark02.png" alt="image28"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark03.png" alt="image29"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark04.png" alt="image30"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark05.png" alt="image31"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark06.png" alt="image32"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark07.png" alt="image33"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark08.png" alt="image33"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark01.png" alt="image27"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark02.png" alt="image28"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark03.png" alt="image29"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark04.png" alt="image30"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark05.png" alt="image31"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark06.png" alt="image32"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark07.png" alt="image33"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark08.png" alt="image33"><div>Dark</div></a>
 
-                                            </div>
-                                        </div>		
+                                        </div>
+                                    </div>		
 
                                     </p>
                                 </div>
                                 <div class="tab-pane" id="tab2">
                                     <p>					      	
-                                        <div class="dg-container">
-                                            <div class="dg-wrapper">
-                                                <a><img src="img/iphone_gallery/all/side/reg_side01.png" alt="image23"><div>Registration</div></a>
-                                                <a><img src="img/iphone_gallery/all/side/reg_side02.png" alt="image24"><div>Registration</div></a>
-                                                <a><img src="img/iphone_gallery/all/side/reg_side03.png" alt="image25"><div>Registration</div></a>
-                                            </div>
+                                    <div class="dg-container">
+                                        <div class="dg-wrapper">
+                                            <a><img src="img/iphone_gallery/all/side/reg_side01.png" alt="image23"><div>Registration</div></a>
+                                            <a><img src="img/iphone_gallery/all/side/reg_side02.png" alt="image24"><div>Registration</div></a>
+                                            <a><img src="img/iphone_gallery/all/side/reg_side03.png" alt="image25"><div>Registration</div></a>
                                         </div>
+                                    </div>
                                     </p>
                                 </div>
                                 <div class="tab-pane" id="tab3">
                                     <p>					      	
-                                        <div class="dg-container">
-                                            <div class="dg-wrapper">
-                                                <a><img src="img/iphone_gallery/chats/side/s-chat01.png" alt="image01"><div>Public Chats</div></a>
-                                                <a><img src="img/iphone_gallery/chats/side/s-chat02.png" alt="image01"><div>Public Chats</div></a>
+                                    <div class="dg-container">
+                                        <div class="dg-wrapper">
+                                            <a><img src="img/iphone_gallery/chats/side/s-chat01.png" alt="image01"><div>Public Chats</div></a>
+                                            <a><img src="img/iphone_gallery/chats/side/s-chat02.png" alt="image01"><div>Public Chats</div></a>
 
-                                                <a><img src="img/iphone_gallery/chats/side/s-dialog01.png" alt="image01"><div>Dialogs</div></a>
-                                                <a ><img src="img/iphone_gallery/chats/side/s-dialog02.png" alt="image01"><div>Dialogs</div></a>
-                                                <a ><img src="img/iphone_gallery/chats/side/s-dialog03.png" alt="image01"><div>Dialogs</div></a>
-                                                <a ><img src="img/iphone_gallery/chats/side/s-dialog04.png" alt="image01"><div>Dialogs</div></a>
-                                                <a ><img src="img/iphone_gallery/chats/side/s-dialog06.png" alt="image01"><div>Dialogs</div></a>
-                                                <a ><img src="img/iphone_gallery/chats/side/s-dialog07.png" alt="image01"><div>Dialogs</div></a>
-                                            </div>
+                                            <a><img src="img/iphone_gallery/chats/side/s-dialog01.png" alt="image01"><div>Dialogs</div></a>
+                                            <a ><img src="img/iphone_gallery/chats/side/s-dialog02.png" alt="image01"><div>Dialogs</div></a>
+                                            <a ><img src="img/iphone_gallery/chats/side/s-dialog03.png" alt="image01"><div>Dialogs</div></a>
+                                            <a ><img src="img/iphone_gallery/chats/side/s-dialog04.png" alt="image01"><div>Dialogs</div></a>
+                                            <a ><img src="img/iphone_gallery/chats/side/s-dialog06.png" alt="image01"><div>Dialogs</div></a>
+                                            <a ><img src="img/iphone_gallery/chats/side/s-dialog07.png" alt="image01"><div>Dialogs</div></a>
                                         </div>
+                                    </div>
                                     </p>
                                 </div>
                                 <div class="tab-pane" id="tab4">
                                     <p>
-                                        <div class="dg-container">
-                                            <div class="dg-wrapper">
-                                                <a ><img src="img/iphone_gallery/all/side/s-contacts01.png" alt="image09"><div>Contacts</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-contacts02.png" alt="image10"><div>Contacts</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-contacts03.png" alt="image11"><div>Contacts</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-contacts04.png" alt="image12"><div>Contacts</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-contacts05.png" alt="image13"><div>Contacts</div></a>
-                                            </div>
+                                    <div class="dg-container">
+                                        <div class="dg-wrapper">
+                                            <a ><img src="img/iphone_gallery/all/side/s-contacts01.png" alt="image09"><div>Contacts</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-contacts02.png" alt="image10"><div>Contacts</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-contacts03.png" alt="image11"><div>Contacts</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-contacts04.png" alt="image12"><div>Contacts</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-contacts05.png" alt="image13"><div>Contacts</div></a>
                                         </div>
+                                    </div>
                                     </p>
                                 </div>
                                 <div class="tab-pane" id="tab5">
                                     <p>
-                                        <div class="dg-container">
-                                            <div class="dg-wrapper">
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups01.png" alt="image14"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups02.png" alt="image15"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups03.png" alt="image16"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups04.png" alt="image17"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups05.png" alt="image18"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups06.png" alt="image19"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups07.png" alt="image20"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups08.png" alt="image21"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups09.png" alt="image22"><div>Groups</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-groups10.png" alt="image23"><div>Groups</div></a>
-                                            </div>
+                                    <div class="dg-container">
+                                        <div class="dg-wrapper">
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups01.png" alt="image14"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups02.png" alt="image15"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups03.png" alt="image16"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups04.png" alt="image17"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups05.png" alt="image18"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups06.png" alt="image19"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups07.png" alt="image20"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups08.png" alt="image21"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups09.png" alt="image22"><div>Groups</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-groups10.png" alt="image23"><div>Groups</div></a>
                                         </div>
+                                    </div>
                                     </p>
                                 </div>
                                 <div class="tab-pane" id="tab6">
                                     <p>
-                                        <div class="dg-container">
-                                            <div class="dg-wrapper">
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark01.png" alt="image23"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark02.png" alt="image24"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark03.png" alt="image25"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark04.png" alt="image26"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark05.png" alt="image27"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark06.png" alt="image28"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark07.png" alt="image28"><div>Dark</div></a>
-                                                <a ><img src="img/iphone_gallery/all/side/s-dark08.png" alt="image28"><div>Dark</div></a>
-                                            </div>
+                                    <div class="dg-container">
+                                        <div class="dg-wrapper">
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark01.png" alt="image23"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark02.png" alt="image24"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark03.png" alt="image25"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark04.png" alt="image26"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark05.png" alt="image27"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark06.png" alt="image28"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark07.png" alt="image28"><div>Dark</div></a>
+                                            <a ><img src="img/iphone_gallery/all/side/s-dark08.png" alt="image28"><div>Dark</div></a>
                                         </div>
+                                    </div>
                                     </p>
                                 </div>
                             </div>
@@ -435,41 +440,41 @@
                             <div class="tab-content">
                                 <div class="tab-pane active part-slider" id="tab-a1">
                                     <p>
-                                        <div class="dg-container">
-                                            <div class="dg-wrapper">
-                                                <a ><img src="img/sumsung_gallery/all/side/s-chats01.png" alt="image23"><div>Public Chats</div></a>
-                                                <a ><img src="img/sumsung_gallery/all/side/s-chats02.png" alt="image24"><div>Public Chats</div></a>
-                                                <a ><img src="img/sumsung_gallery/all/side/s-chats03.png" alt="image25"><div>Public Chats</div></a>
-                                                <a ><img src="img/sumsung_gallery/all/side/s-chats04.png" alt="image26"><div>Public Chats</div></a>
-                                                <a ><img src="img/sumsung_gallery/all/side/s-reg01.png" alt="image27"><div>Registration</div></a>
-                                                <a ><img src="img/sumsung_gallery/all/side/s-reg02.png" alt="image28"><div>Registration</div></a>
-                                                <a ><img src="img/sumsung_gallery/all/side/s-reg03.png" alt="image28"><div>Registration</div></a>
-                                                <a ><img src="img/sumsung_gallery/all/side/03.png" alt="image35"><div>Contakts</div></a>
-                                            </div>
+                                    <div class="dg-container">
+                                        <div class="dg-wrapper">
+                                            <a ><img src="img/sumsung_gallery/all/side/s-chats01.png" alt="image23"><div>Public Chats</div></a>
+                                            <a ><img src="img/sumsung_gallery/all/side/s-chats02.png" alt="image24"><div>Public Chats</div></a>
+                                            <a ><img src="img/sumsung_gallery/all/side/s-chats03.png" alt="image25"><div>Public Chats</div></a>
+                                            <a ><img src="img/sumsung_gallery/all/side/s-chats04.png" alt="image26"><div>Public Chats</div></a>
+                                            <a ><img src="img/sumsung_gallery/all/side/s-reg01.png" alt="image27"><div>Registration</div></a>
+                                            <a ><img src="img/sumsung_gallery/all/side/s-reg02.png" alt="image28"><div>Registration</div></a>
+                                            <a ><img src="img/sumsung_gallery/all/side/s-reg03.png" alt="image28"><div>Registration</div></a>
+                                            <a ><img src="img/sumsung_gallery/all/side/03.png" alt="image35"><div>Contakts</div></a>
                                         </div>
+                                    </div>
                                     </p>
                                 </div>
                                 <div class="tab-pane" id="tab-a2">
                                     <p>
-                                        <div class="dg-container">
-                                            <div class="dg-wrapper">
-                                                <a ><img src="img/sumsung_gallery/all/side/s-reg01.png" alt="image27"><div>Registration</div></a>
-                                                <a ><img src="img/sumsung_gallery/all/side/s-reg02.png" alt="image28"><div>Registration</div></a>
-                                                <a ><img src="img/sumsung_gallery/all/side/s-reg03.png" alt="image28"><div>Registration</div></a>
-                                            </div>
+                                    <div class="dg-container">
+                                        <div class="dg-wrapper">
+                                            <a ><img src="img/sumsung_gallery/all/side/s-reg01.png" alt="image27"><div>Registration</div></a>
+                                            <a ><img src="img/sumsung_gallery/all/side/s-reg02.png" alt="image28"><div>Registration</div></a>
+                                            <a ><img src="img/sumsung_gallery/all/side/s-reg03.png" alt="image28"><div>Registration</div></a>
                                         </div>
+                                    </div>
                                     </p>
                                 </div>
                                 <div class="tab-pane" id="tab-a3">
                                     <p>
-                                        <div class="dg-container">
-                                            <div class="dg-wrapper">
-                                                <a ><img src="img/sumsung_gallery/all/side/s-chats01.png" alt="image23"><div>Public Chats</div></a>
-                                                <a ><img src="img/sumsung_gallery/all/side/s-chats02.png" alt="image24"><div>Public Chats</div></a>
-                                                <a ><img src="img/sumsung_gallery/all/side/s-chats03.png" alt="image25"><div>Public Chats</div></a>
-                                                <a ><img src="img/sumsung_gallery/all/side/s-chats04.png" alt="image26"><div>Public Chats</div></a>
-                                            </div>
+                                    <div class="dg-container">
+                                        <div class="dg-wrapper">
+                                            <a ><img src="img/sumsung_gallery/all/side/s-chats01.png" alt="image23"><div>Public Chats</div></a>
+                                            <a ><img src="img/sumsung_gallery/all/side/s-chats02.png" alt="image24"><div>Public Chats</div></a>
+                                            <a ><img src="img/sumsung_gallery/all/side/s-chats03.png" alt="image25"><div>Public Chats</div></a>
+                                            <a ><img src="img/sumsung_gallery/all/side/s-chats04.png" alt="image26"><div>Public Chats</div></a>
                                         </div>
+                                    </div>
                                     </p>
                                 </div>
                             </div>
@@ -552,12 +557,13 @@
                 </div>
 
                 <?php
-                if(isset($_POST['submit'])) {
+                if (isset($_POST['submit'])) {
 
                     $name = $_POST['name'];
                     $mail = $_POST['email'];
-                    $mess =  $_POST['mess'];
-                    $to = 'lebedeva.kait@gmail.com'; 
+                    $mess = $_POST['mess'];
+                    //$to = 'lebedeva.kait@gmail.com';
+                    $to = 'proger.mixa@gmail.com';
                     $message = "
                     Name: $name <br>
                     Email: $mail  <br>
@@ -568,7 +574,7 @@
 
                     $email = new PHPMailer();
                     $email->CharSet = 'UTF-8';
-                    $email->IsSMTP(); 
+                    $email->IsSMTP();
                     $email->SMTPDebug = 0;
                     $email->SMTPAuth = true;
                     $email->SMTPSecure = "tls";
@@ -579,15 +585,15 @@
                     $email->Password = "ador2929";
                     $email->SetFrom("info@unigent.com");
 
-                    $email->FromName  = 'Unigent';
-                    $email->Subject   = 'מייל מצור קשר חיפוש משרה';
-                    $email->Body      = $message;
-                    $email->AddAddress( 'lebedeva.kait@gmail.com' );
+                    $email->FromName = 'Unigent';
+                    $email->Subject = '???? ???? ??? ????? ????';
+                    $email->Body = $message;
+                    $email->AddAddress($to);
 
-                    if($email->Send()){
-                        $send = true;
+                    $send = $email->Send();
+
+                    if ($send) {
                         echo "success!!!";
-
                     }
                 }
 
@@ -623,48 +629,38 @@
         <!-- Slider JS -->
         <!-- <script type="text/javascript" src="js/slider-gallery.js"></script> -->
 
-
         <!-- Bootstrap Core JavaScript -->
         <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-
-
 
         <!-- Custom Theme JavaScript -->
         <script src="js/basicelement.js"></script>
         <script type="text/javascript" src="js/jquery.gallery.js"></script>
 
-
-
         <script type="text/javascript">
-            function initGallery() {
+                                function initGallery() {
 
-                $('.dg-container').gallery({
-                    // autoplay: true,
-                });
-            }
-            $(function() {
-                initGallery();
-            });
-            setTimeout(function() {
-                $('.ios-menu').on('click', function() {
-                    initGallery();
+                                    $('.dg-container').gallery({
+                                        // autoplay: true,
+                                    });
+                                }
+                                $(function() {
+                                    initGallery();
+                                });
+                                setTimeout(function() {
+                                    $('.ios-menu').on('click', function() {
+                                        initGallery();
 
-                    console.log("jdsfhsjdk");
-                });
-            }, 1000);
+                                        console.log("jdsfhsjdk");
+                                    });
+                                }, 1000);
         </script>
-
-
 
         <!-- Plugin JavaScript -->
         <!--<script type="text/javascript" src="js/jquery.malihu.PageScroll2id.js"></script>-->
         <script src="js/jquery.easing.min.js"></script>
         <script src="js/SmoothScroll.js"></script>
 
-
         <!-- Form -->
         <script type="text/javascript" src="js/form.js"></script>
-
-
     </body>
-    </html>
+</html>
