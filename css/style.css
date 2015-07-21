@@ -1,22 +1,22 @@
 @font-face {
-font-family: CamptonLightBbuttonsAndTtles; 
-src: url(../fonts/CamptonLightBbuttonsAndTtles.otf);
-src: local(../fonts/CamptonLightBbuttonsAndTtles.otf), url(../fonts/CamptonLightBbuttonsAndTtles.otf);
+	font-family: CamptonLightBbuttonsAndTtles; 
+	src: url(../fonts/CamptonLightBbuttonsAndTtles.otf);
+	src: local(../fonts/CamptonLightBbuttonsAndTtles.otf), url(../fonts/CamptonLightBbuttonsAndTtles.otf);
 }
 @font-face {
-font-family: CamptonThin; 
-src: url(../fonts/CamptonThin.otf);
-src: local(../fonts/CamptonThin.otf), url(../fonts/CamptonThin.otf);
+	font-family: CamptonThin; 
+	src: url(../fonts/CamptonThin.otf);
+	src: local(../fonts/CamptonThin.otf), url(../fonts/CamptonThin.otf);
 }
 @font-face {
-font-family: Graviton-AgudaLight; 
-src: url(../fonts/Graviton-AgudaLight.otf);
-src: local(../fonts/Graviton-AgudaLight.otf), url(../fonts/Graviton-AgudaLight.otf);
+	font-family: Graviton-AgudaLight; 
+	src: url(../fonts/Graviton-AgudaLight.otf);
+	src: local(../fonts/Graviton-AgudaLight.otf), url(../fonts/Graviton-AgudaLight.otf);
 }
 @font-face {
-font-family: NotoSans-Italic; 
-src: url(../fonts/NotoSans-Italic.ttf);
-src: local(../fonts/NotoSans-Italic.ttf), url(../fonts/NotoSans-Italic.ttf);
+	font-family: NotoSans-Italic; 
+	src: url(../fonts/NotoSans-Italic.ttf);
+	src: local(../fonts/NotoSans-Italic.ttf), url(../fonts/NotoSans-Italic.ttf);
 }
 
 article, aside, details, figcaption, figure, footer,header,
@@ -66,7 +66,7 @@ a:hover {
 .main-menu {
 	font-family: CamptonLightBbuttonsAndTtles; 
 	font-size: 2em;
-  	text-align: center;
+	text-align: center;
 }
 .menu-collap {
 	overflow: hidden;
@@ -99,7 +99,7 @@ a:hover {
 }
 .little-screen {
 	overflow: hidden;
-  	text-align: center;
+	text-align: center;
 }
 .title-head {
 	font-size: 3.7em;
@@ -132,10 +132,10 @@ a:hover {
 }
 .list-download li a {
 	display: inline-block;
-  	background-image: url('../img/download_icons.png');
- 	margin-left: 15px;
- 	margin-top: 5px;
- 	float: right;
+	background-image: url('../img/download_icons.png');
+	margin-left: 15px;
+	margin-top: 5px;
+	float: right;
 }
 .titles-downl {
 	float: right;
@@ -240,10 +240,10 @@ a:hover {
 	line-height: 0;
 }
 hr {
-    border: none; 
-    background-color: #838997; 
-    color: #838997; 
-    height: 1px; 
+	border: none; 
+	background-color: #838997; 
+	color: #838997; 
+	height: 1px; 
 }
 .comfortable-title h2 {
 	color: #333c56;
@@ -258,7 +258,7 @@ hr {
 	padding-top: 200px;	
 }
 .iphone-themes-day, .iphone-themes-night {
-/*	padding-top: 64px;*/
+	/*	padding-top: 64px;*/
 }
 .iphone-themes-day img{
 	float: right;
@@ -436,11 +436,11 @@ hr {
 	font-size: 1.5em;
 }
 .carousel img, .carousel-sing-up img, .carousel-chats img, .carousel-contacts img, .carousel-groups img, .carousel-dark img, .small-iphone-slider img, .carousel-sumsung-small img, .carousel-sumsung img, .carousel-sumsung-sing-up img, .carousel-sumsung-chats img  {
-				display: block;
-				float: left;
-				border: none;
-				position: relative;
-			}
+	display: block;
+	float: left;
+	border: none;
+	position: relative;
+}
 
 #features, #screens, #get-app, #support {
 	padding-top: 5%;
@@ -458,59 +458,59 @@ hr {
 
 /*Scroll*/
 .top-nav-collapse ul.nav.navbar-nav.navbar-right.main-menu li.active a {
-		color: #eff07d !important;
-		border-bottom: 1px solid #eff07d;
-		margin-bottom: -1px;
-		border-radius: 0;
-		background-color: transparent;
+	color: #eff07d !important;
+	border-bottom: 1px solid #eff07d;
+	margin-bottom: -1px;
+	border-radius: 0;
+	background-color: transparent;
 }
 
 
 @media(max-width:1200px) {
- 	.main-menu {
- 		font-size: 1.5em;
- 	}
- 	.get-app-image-googlePlay {
- 		float: none;
-  		width: 70%;
- 		padding: 0% 0 0 32%;
- 	}
+	.main-menu {
+		font-size: 1.5em;
+	}
+	.get-app-image-googlePlay {
+		float: none;
+		width: 70%;
+		padding: 0% 0 0 32%;
+	}
 }
 @media(min-width:767px) {
-    .navbar {
-        padding: 35px 0 0 ; 
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
+	.navbar {
+		padding: 35px 0 0 ; 
+		border-bottom: 0;
+		letter-spacing: 1px;
+		background: 0 0;
+		-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+		-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+		transition: background .5s ease-in-out,padding .5s ease-in-out;
+	}
 
-    .top-nav-collapse {
-        padding: 10px 0;
-        background-color: #333c56;
-        opacity: 0.95;
-    }
-    .top-nav-collapse .logo {
-    	width: 67%;
-    }
-    .top-nav-collapse ul.nav.navbar-nav.navbar-right.main-menu li a {
-    	margin-top: 20px;
-    }
-    .top-nav-collapse ul.nav.navbar-nav.navbar-right.main-menu li.get-app a {
+	.top-nav-collapse {
+		padding: 10px 0;
+		background-color: #333c56;
+		opacity: 0.95;
+	}
+	.top-nav-collapse .logo {
+		width: 67%;
+	}
+	.top-nav-collapse ul.nav.navbar-nav.navbar-right.main-menu li a {
+		margin-top: 20px;
+	}
+	.top-nav-collapse ul.nav.navbar-nav.navbar-right.main-menu li.get-app a {
 		border: none;
-		  margin: 20px 30px 10px;
+		margin: 20px 30px 10px;
 		padding: 0 0 10px 0; 
-    }
-    .top-nav-collapse ul.nav.navbar-nav.navbar-right.main-menu li.get-app .get-app-link:hover, .top-nav-collapse ul.nav.navbar-nav.navbar-right.main-menu li.active a {
+	}
+	.top-nav-collapse ul.nav.navbar-nav.navbar-right.main-menu li.get-app .get-app-link:hover, .top-nav-collapse ul.nav.navbar-nav.navbar-right.main-menu li.active a {
 		color: #eff07d !important;
 		border-bottom: 1px solid #eff07d;
 		margin-bottom: -1px;
 		border-radius: 0;
 		background-color: transparent;
-    }
-    
+	}
+	
 }
 
 /*Scroll*/
@@ -640,811 +640,811 @@ hr {
 	}
 	/*.top-nav-collapse .logo {
 		display: none;
-	}*/
-	.header {
-		padding-top: 150px;
+		}*/
+		.header {
+			padding-top: 150px;
+		}
+		.menu-collap {
+			/*padding: 35px;*/
+			text-align: center;
+		}
+		.title-head, .title-l-head {
+			padding-left: 5%;
+			width: 100%;
+			font-size: 2em
+		}
+		.navbar {
+			padding: 10px;
+		}
+		.main-menu {
+			font-size: 1.3em;
+			float: left;
+		}
+		.title-head, .title-l-head {
+			padding: 2% 5%;
+		}
+		.function-app-left, .centr-featured-iphone {
+			float: left;
+			width: 30%;
+		}
+		.centr-featured-iphone {
+			width: 40%;
+			padding: 0;
+		}
+		.function-box, .function-img-box img, .function-box, .function-img-right-box img {
+			width: 71%;
+		}
+		.function-img-box {
+			margin-left: 2%;
+		}
+		.function-img-box img {
+			float: right;
+			margin-right: 20%;
+		}
+		.function-right-box {
+			overflow: hidden;
+		}
+		.function-img-right-box img {
+			margin-left: 20%;
+		}
+		.centr-featured-iphone img {
+			width: 75%;
+		}
+		.function-box h3, .function-right-box h3 {
+			font-size: 1.5em;
+			margin:0;
+		}
+		.function-box span, .function-right-box span {
+			font-size: 1.4em;
+		}
+		.iphone-themes-day, .vs, .iphone-themes-night {
+			float: left;
+		}
+		.iphone-themes-day, .iphone-themes-night {
+			width: 40%;
+		}
+		.vs {
+			width: 20%;
+		}
+		.iphone-themes-day .iphone-vs, .iphone-themes-night .iphone-vs{
+			width: 60%;
+		}
+		.iphone-themes-day .sun {
+			width: 40%;
+		}
+		.iphone-themes-night .moon{
+			width: 15%;
+		}
+		.iphome-get-app {
+			padding-bottom: 0;
+		}
+		.get-app-titles h3 {
+			padding-bottom: 0;
+			color: #333c56;
+		}
+		.button-downl .btn-1 img {
+			width: 100%;
+			padding: 5% 0 0 25%;
+		}
+		.get-app-section {
+			background-position-y: 100%;
+			width: 100%;
+			/*background-size: contain;*/
+			padding-bottom: 5%;
+		}
+		.all-btn-get-app {
+			padding-bottom: 10%;
+		}
+		.h3-wgite {
+			color: white !important;
+		}
+		.sent-form {
+			padding: 8% 10%;
+		}
+		.sent-form input[type="text"] {
+			width: 100%;
+			padding: 4%;
+			margin: 2% 0;
+			font-size: 1.5em;
+		}
+		.sent-form textarea {
+			margin: 5% 0;
+			padding: 4% 4% 15%;
+			border-radius: 25px;
+			font-size: 1.5em;
+		}
+		.sent-form input[type="submit"] {
+			width: 60%;
+			padding: 3%;
+			font-size: 1.5em;
+		}
+		.footer-logo {
+			width: 20%;
+		}
+		.footer span {
+			font-size: 1em;
+			padding-bottom: 5%;
+		}
+		.btn-get-add {
+			float: none;
+			width: 75%;
+			padding: 5% 0 0 32%;
+		}
+		.btn-get-add img {
+			padding-top: 3%;
+		}
 	}
-	.menu-collap {
-		/*padding: 35px;*/
-		text-align: center;
-	}
-	.title-head, .title-l-head {
-		padding-left: 5%;
-		width: 100%;
-		font-size: 2em
-	}
-	.navbar {
-        padding: 10px;
-    }
-    .main-menu {
- 		font-size: 1.3em;
- 		float: left;
- 	}
- 	.title-head, .title-l-head {
- 		padding: 2% 5%;
- 	}
- 	.function-app-left, .centr-featured-iphone {
- 		float: left;
- 		width: 30%;
- 	}
- 	.centr-featured-iphone {
- 		width: 40%;
- 		padding: 0;
- 	}
- 	.function-box, .function-img-box img, .function-box, .function-img-right-box img {
- 		width: 71%;
- 	}
- 	.function-img-box {
- 		margin-left: 2%;
- 	}
- 	.function-img-box img {
- 		float: right;
- 		margin-right: 20%;
- 	}
- 	.function-right-box {
- 		overflow: hidden;
- 	}
- 	.function-img-right-box img {
- 		margin-left: 20%;
- 	}
- 	.centr-featured-iphone img {
- 		width: 75%;
- 	}
- 	.function-box h3, .function-right-box h3 {
- 		font-size: 1.5em;
- 		margin:0;
- 	}
- 	.function-box span, .function-right-box span {
- 		font-size: 1.4em;
- 	}
-	.iphone-themes-day, .vs, .iphone-themes-night {
-		float: left;
-	}
-	.iphone-themes-day, .iphone-themes-night {
-		width: 40%;
-	}
-	.vs {
-		width: 20%;
-	}
-	.iphone-themes-day .iphone-vs, .iphone-themes-night .iphone-vs{
-		width: 60%;
-	}
-	.iphone-themes-day .sun {
-		width: 40%;
-	}
-	.iphone-themes-night .moon{
-		width: 15%;
-	}
-	.iphome-get-app {
-		padding-bottom: 0;
-	}
-	.get-app-titles h3 {
-		padding-bottom: 0;
-		color: #333c56;
-	}
-	.button-downl .btn-1 img {
-		width: 100%;
- 		padding: 5% 0 0 25%;
-	}
-	.get-app-section {
-		background-position-y: 100%;
-		width: 100%;
-		/*background-size: contain;*/
-		padding-bottom: 5%;
-	}
-	.all-btn-get-app {
-		padding-bottom: 10%;
-	}
-	.h3-wgite {
-		color: white !important;
-	}
-	.sent-form {
-		padding: 8% 10%;
-	}
-	.sent-form input[type="text"] {
-		width: 100%;
- 		padding: 4%;
- 		margin: 2% 0;
- 		font-size: 1.5em;
-	}
-	.sent-form textarea {
-		margin: 5% 0;
-		padding: 4% 4% 15%;
-		border-radius: 25px;
-		font-size: 1.5em;
-	}
-	.sent-form input[type="submit"] {
-		width: 60%;
-		padding: 3%;
-		font-size: 1.5em;
-	}
-	.footer-logo {
-		width: 20%;
-	}
-	.footer span {
-		font-size: 1em;
-		padding-bottom: 5%;
-	}
-	.btn-get-add {
-		float: none;
-		width: 75%;
-  		padding: 5% 0 0 32%;
-	}
-	.btn-get-add img {
-		padding-top: 3%;
-	}
-}
 
 
-@media only screen and (max-width : 1024px) {
-	#features, #screens, #get-app, #support {
-		padding-top: 10%;
+	@media only screen and (max-width : 1024px) {
+		#features, #screens, #get-app, #support {
+			padding-top: 10%;
+		}
+		.top-nav-collapse .logo {
+			display: block;
+		}
+		.logo-fl {
+			float: none;
+			text-align: center;
+		}
+		.top-head {
+			float: left;
+			width: 50%;
+		}
+		.top-iphone {
+			float: right;
+			width: 50%;
+			padding: 5% 5% 0;
+		}
+		.top-iphone img {
+			width: 90%;
+		}
+		.top-head .nav-content {
+			padding: 10% 0 0 10%;
+		}
+		.top-head .nav-content .title-head {
+			font-size: 2em;
+		}
+		.top-head .nav-content .title-l-head {
+			font-size: 1.8em;
+			margin-top: 0;
+		}
+		.list-downl-block {
+			padding: 0;
+		}
+		.button-downl {
+			padding: 0;
+		}
+		.button-downl .btn-1 {
+			width: 100%;
+			float: none;
+			padding: 0;
+		}
+		.button-downl .btn-1 img {
+			padding-bottom: 5%;
+		}
+		.about-icon {
+			width: 50%;
+			padding: 5% 5% 5%;
+		}
+		.about-icon img {
+			width: 50%;
+		}
+		.about-icon  h1 {
+			font-size: 1.5em;
+		}
+		.about-icon span {
+			font-size: 1.7em;
+		}
+		.one-about-icon {
+			float: left;
+		}
+		.two-about-icon {
+			float: right;
+		}
+		.top-nav-collapse .logo {
+			/*display: none;*/
+		}
+		.header {
+			padding-top: 10%;
+		}
+		.menu-collap {
+			text-align: center;
+		}
+		.title-head, .title-l-head {
+			padding-left: 5%;
+			width: 100%;
+			font-size: 2em
+		}
+		.navbar {
+			padding: 10px;
+		}
+		.main-menu {
+			font-size: 1.3em;
+			float: left;
+		}
+		.title-head, .title-l-head {
+			padding: 2% 5%;
+		}
+		.function-app-left, .centr-featured-iphone {
+			float: left;
+			width: 30%;
+		}
+		.centr-featured-iphone {
+			width: 40%;
+			padding: 0;
+		}
+		.function-box, .function-img-box img, .function-box, .function-img-right-box img {
+			/*width: 65%;*/
+		}
+		.function-img-box {
+			margin-left: 2%;
+		}
+		.function-img-box img {
+			float: right;
+			margin-right: 20%;
+		}
+		.function-right-box {
+			overflow: hidden;
+		}
+		.function-img-right-box img {
+			margin-left: 20%;
+		}
+		.centr-featured-iphone img {
+			width: 75%;
+		}
+		.function-box h3, .function-right-box h3 {
+			/*font-size: 1.3em;*/
+			margin:0;
+		}
+		.function-box span, .function-right-box span {
+			/*font-size: 1.1em;*/
+		}
+		.iphone-themes-day, .vs, .iphone-themes-night {
+			float: left;
+		}
+		.iphone-themes-day, .iphone-themes-night {
+			width: 40%;
+		}
+		.vs {
+			width: 20%;
+		}
+		.iphone-themes-day .iphone-vs, .iphone-themes-night .iphone-vs{
+			width: 60%;
+		}
+		.iphone-themes-day .sun {
+			width: 40%;
+		}
+		.iphone-themes-night .moon{
+			width: 15%;
+		}
+		.iphome-get-app {
+			padding-bottom: 0;
+		}
+		.get-app-titles h3 {
+			padding-bottom: 0;
+			color: #333c56;
+		}
+		.button-downl .btn-1 img {
+			width: 100%;
+			padding: 5% 0 0 25%;
+		}
+		.get-app-section {
+			background-position-y: 100%;
+			width: 100%;
+			/*background-size: contain;*/
+			padding-bottom: 5%;
+		}
+		.all-btn-get-app {
+			padding-bottom: 10%;
+		}
+		.h3-wgite {
+			color: white !important;
+		}
+		.sent-form {
+			padding: 8% 10%;
+		}
+		.sent-form input[type="text"] {
+			width: 100%;
+			padding: 4%;
+			margin: 2% 0;
+			font-size: 1.5em;
+		}
+		.sent-form textarea {
+			margin: 5% 0;
+			padding: 4% 4% 15%;
+			border-radius: 25px;
+			font-size: 1.5em;
+		}
+		.sent-form input[type="submit"] {
+			width: 60%;
+			padding: 3%;
+			font-size: 1.5em;
+		}
+		.footer-logo {
+			width: 20%;
+		}
+		.footer span {
+			font-size: 1em;
+			padding-bottom: 5%;
+		}
 	}
-	.top-nav-collapse .logo {
-		display: block;
-	}
-	.logo-fl {
-		float: none;
-		text-align: center;
-	}
-	.top-head {
-		float: left;
-		width: 50%;
-	}
-	.top-iphone {
-		float: right;
-		width: 50%;
-		padding: 5% 5% 0;
-	}
-	.top-iphone img {
-		width: 90%;
-	}
-	.top-head .nav-content {
-		padding: 10% 0 0 10%;
-	}
-	.top-head .nav-content .title-head {
-		font-size: 2em;
-	}
-	.top-head .nav-content .title-l-head {
-		font-size: 1.8em;
-		margin-top: 0;
-	}
-	.list-downl-block {
-		padding: 0;
-	}
-	.button-downl {
-		padding: 0;
-	}
-	.button-downl .btn-1 {
-		width: 100%;
-		float: none;
-		padding: 0;
-	}
-	.button-downl .btn-1 img {
-		padding-bottom: 5%;
-	}
-	.about-icon {
-		width: 50%;
-		padding: 5% 5% 5%;
-	}
-	.about-icon img {
-		width: 50%;
-	}
-	.about-icon  h1 {
-		font-size: 1.5em;
-	}
-	.about-icon span {
-		font-size: 1.7em;
-	}
-	.one-about-icon {
-		float: left;
-	}
-	.two-about-icon {
-		float: right;
-	}
-	.top-nav-collapse .logo {
-		/*display: none;*/
-	}
-	.header {
-		padding-top: 10%;
-	}
-	.menu-collap {
-		text-align: center;
-	}
-	.title-head, .title-l-head {
-		padding-left: 5%;
-		width: 100%;
-		font-size: 2em
-	}
-	.navbar {
-        padding: 10px;
-    }
-    .main-menu {
- 		font-size: 1.3em;
- 		float: left;
- 	}
- 	.title-head, .title-l-head {
- 		padding: 2% 5%;
- 	}
- 	.function-app-left, .centr-featured-iphone {
- 		float: left;
- 		width: 30%;
- 	}
- 	.centr-featured-iphone {
- 		width: 40%;
- 		padding: 0;
- 	}
- 	.function-box, .function-img-box img, .function-box, .function-img-right-box img {
- 		/*width: 65%;*/
- 	}
- 	.function-img-box {
- 		margin-left: 2%;
- 	}
- 	.function-img-box img {
- 		float: right;
- 		margin-right: 20%;
- 	}
- 	.function-right-box {
- 		overflow: hidden;
- 	}
- 	.function-img-right-box img {
- 		margin-left: 20%;
- 	}
- 	.centr-featured-iphone img {
- 		width: 75%;
- 	}
- 	.function-box h3, .function-right-box h3 {
- 		/*font-size: 1.3em;*/
- 		margin:0;
- 	}
- 	.function-box span, .function-right-box span {
- 		/*font-size: 1.1em;*/
- 	}
-	.iphone-themes-day, .vs, .iphone-themes-night {
-		float: left;
-	}
-	.iphone-themes-day, .iphone-themes-night {
-		width: 40%;
-	}
-	.vs {
-		width: 20%;
-	}
-	.iphone-themes-day .iphone-vs, .iphone-themes-night .iphone-vs{
-		width: 60%;
-	}
-	.iphone-themes-day .sun {
-		width: 40%;
-	}
-	.iphone-themes-night .moon{
-		width: 15%;
-	}
-	.iphome-get-app {
-		padding-bottom: 0;
-	}
-	.get-app-titles h3 {
-		padding-bottom: 0;
-		color: #333c56;
-	}
-	.button-downl .btn-1 img {
-		width: 100%;
- 		padding: 5% 0 0 25%;
-	}
-	.get-app-section {
-		background-position-y: 100%;
-		width: 100%;
-		/*background-size: contain;*/
-		padding-bottom: 5%;
-	}
-	.all-btn-get-app {
-		padding-bottom: 10%;
-	}
-	.h3-wgite {
-		color: white !important;
-	}
-	.sent-form {
-		padding: 8% 10%;
-	}
-	.sent-form input[type="text"] {
-		width: 100%;
- 		padding: 4%;
- 		margin: 2% 0;
- 		font-size: 1.5em;
-	}
-	.sent-form textarea {
-		margin: 5% 0;
-		padding: 4% 4% 15%;
-		border-radius: 25px;
-		font-size: 1.5em;
-	}
-	.sent-form input[type="submit"] {
-		width: 60%;
-		padding: 3%;
-		font-size: 1.5em;
-	}
-	.footer-logo {
-		width: 20%;
-	}
-	.footer span {
-		font-size: 1em;
-		padding-bottom: 5%;
-	}
-}
-@media only screen and (max-width : 990px) {
-	.get-app-section {
-		background-position-y: 0; 
-	}
-	.top-iphone img {
-		width: 90%;
-	}
-	.btn-get-add {
-		padding: 5% 0 0 25%;
-	}
-	.get-app-image-googlePlay{
-  		width: 75%;
-  		padding: 0% 0 0 25%;
-	}
-	.logo-fl {
-		width: 100%;
-	}
-	.top-nav-collapse .logo {
-		display: none;
-	}
-	.header {
-		padding-top: 20%;
-	}
-	.about-icon h1 {
-		font-size: 2em;
-	}
-	.function-box, .function-img-box img, .function-box, .function-img-right-box img {
-		width: 65%;
-	}
-	.centr-featured-iphone img {
-		width: 100%;
+	@media only screen and (max-width : 990px) {
+		.get-app-section {
+			background-position-y: 0; 
+		}
+		.top-iphone img {
+			width: 90%;
+		}
+		.btn-get-add {
+			padding: 5% 0 0 25%;
+		}
+		.get-app-image-googlePlay{
+			width: 75%;
+			padding: 0% 0 0 25%;
+		}
+		.logo-fl {
+			width: 100%;
+		}
+		.top-nav-collapse .logo {
+			display: none;
+		}
+		.header {
+			padding-top: 20%;
+		}
+		.about-icon h1 {
+			font-size: 2em;
+		}
+		.function-box, .function-img-box img, .function-box, .function-img-right-box img {
+			width: 65%;
+		}
+		.centr-featured-iphone img {
+			width: 100%;
+		}
+
 	}
 
-}
+	@media only screen and (max-width : 768px) {
+		.logo-fl {
+			width: 1%;
+		}
+		.top-nav-collapse .logo {
+			/*display: none;*/
+		}
+		.navbar-nav {
+			margin: 0;
+			float: none;
+		}
+		.top-iphone img {
+			width: 100%;
+		}
+		.centr-featured-iphone img {
+			width: 75%;
+		}
+		.button-downl .btn-1 img {
+			width: 100%;
+			padding: 5% 0 0 25%;
+		}
+		.get-app-section {
+			background-position-y: 0%;
+		}
+		.centr-featured-iphone {
+			width: 32%;
+		}
+		.centr-featured-iphone  img{
+			width: 100%;
+			padding-top:20%;
+		}
+		.function-app-left {
+			margin: 0 2%;
+		}
+		.button-downl .small-btn img {
+			width: 50%;
+		}
+		.btn-get-add {
+			float: none;
+			width: 100%;
+			padding: 5% 0 0 25%;
+		}
+		.btn-get-add img {
+			padding-top: 3%;
+		}
+		.navbar-inverse .navbar-toggle {
+			background-color: #333c56;
+		}
+		.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+			background-color: #333c56;
+		}
+	}
 
-@media only screen and (max-width : 768px) {
-	.logo-fl {
-		width: 1%;
+	@media only screen and (max-width : 767px) {
+		.top-nav-collapse .navbar-header {
+			display: block;
+		}
+		.top-nav-collapse .logo {
+			display: none;
+		}
+		.header {
+			padding-top: 5% !important;
+		}
+		.navbar {
+			/*position: inherit;*/
+		}
+		.top-block-pad {
+			padding-top: 10%;
+		}
+		.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+			max-height: 100%;
+			width: 100%;
+			margin: 15% 0 0 0;
+			background-color: #333c56;
+			opacity: 0.8;
+		}
+		.li-support {
+			margin-bottom: 10px;
+		}
+		.main-menu {
+			padding: 2% 10%;
+		}
 	}
-	.top-nav-collapse .logo {
-		/*display: none;*/
-	}
-	.navbar-nav {
-		margin: 0;
-		float: none;
-	}
-	.top-iphone img {
-		width: 100%;
-	}
-	.centr-featured-iphone img {
- 		width: 75%;
- 	}
- 	.button-downl .btn-1 img {
-		width: 100%;
- 		padding: 5% 0 0 25%;
-	}
-	.get-app-section {
-		background-position-y: 0%;
-	}
-	.centr-featured-iphone {
- 		width: 32%;
- 	}
- 	.centr-featured-iphone  img{
- 		width: 100%;
- 		padding-top:20%;
- 	}
- 	.function-app-left {
- 		margin: 0 2%;
- 	}
- 	.button-downl .small-btn img {
- 		width: 50%;
- 	}
- 	.btn-get-add {
-		float: none;
-		width: 100%;
-  		padding: 5% 0 0 25%;
-	}
-	.btn-get-add img {
-		padding-top: 3%;
-	}
-	.navbar-inverse .navbar-toggle {
-		background-color: #333c56;
-	}
-	.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-		background-color: #333c56;
-	}
- }
 
-@media only screen and (max-width : 767px) {
-	.top-nav-collapse .navbar-header {
-		display: block;
+	@media only screen and (max-width : 745px) {
+		.ios-menu li a {
+			font-size: 1.6em;
+		}
+		.features-titles h1, .ios-titles h1 {
+			font-size: 2.5em;
+		}
+		.features-titles h3, .comfortable-title h2, .ios-titles h3 {
+			font-size: 1.5em;
+		}
+		.function-app-left, .centr-featured-iphone {
+			float: left;
+			width: 30%;
+		}
+		.centr-featured-iphone {
+			width: 32%;
+			padding: 0;
+		}
+		.functions {
+			padding-bottom: 5%;
+		}
+		.function-box, .function-img-box img, .function-box, .function-img-right-box img {
+			width: 60%;
+		}
+		.function-img-box {
+			margin-left: 2%;
+		}
+		.function-img-box img {
+			float: right;
+			margin-right: 20%;
+		}
+		.function-right-box {
+			overflow: hidden;
+		}
+		.function-img-right-box {
+			margin-right: 0;
+		}
+		.function-img-right-box img {
+			margin-left: 20%;
+		}
+		.centr-featured-iphone img {
+			width: 100%;
+		}
+		.function-box h3, .function-right-box h3 {
+			font-size: 1.1em;
+			margin:0;
+		}
+		.function-box span, .function-right-box span {
+			font-size: 1em;
+		}
 	}
-	.top-nav-collapse .logo {
-		display: none;
+	@media only screen and (max-width : 640px) {
+		.ios-menu {
+			display: none;
+		}
+		.logo-fl {
+			text-align: left;
+			width: 50%;
+		}
+		.logo {
+			width: 55%;
+		}
+		.main-block .header {
+			padding-top: 65px;
+		}
+		.main-block {
+			background-image: url("../img/bg_small.png");
+		}
+		.top-head {
+			float: left;
+			width: 45%;
+		}
+		.top-iphone {
+			float: right;
+			width: 55%;
+			padding: 5% 5% 0;
+		}
+		.top-iphone img {
+			width: 100%;
+		}
+		.top-head .nav-content {
+			padding: 10% 0 0 10%;
+		}
+		.top-head .nav-content .title-head {
+			font-size: 1.5em;
+		}
+		.top-head .nav-content .title-l-head {
+			font-size: 1.3em;
+			margin-top: 0;
+		}
+		.button-downl {
+			padding: 0;
+		}
+		.button-downl .btn-1 {
+			width: 100%;
+			float: none;
+			padding: 0;
+		}
+		.about-icon {
+			width: 50%;
+			padding: 5% 5% 5%;
+		}
+		.about-icon img {
+			width: 50%;
+		}
+		.about-icon  h1 {
+			font-size: 1.5em;
+		}
+		.about-icon span {
+			font-size: 1.7em;
+		}
+		.one-about-icon {
+			float: left;
+		}
+		.two-about-icon {
+			float: right;
+		}
+		.iphone-themes-day, .vs, .iphone-themes-night {
+			float: left;
+		}
+		.iphone-themes-day, .iphone-themes-night {
+			width: 40%;
+		}
+		.vs {
+			width: 20%;
+		}
+		.iphone-themes-day .iphone-vs, .iphone-themes-night .iphone-vs{
+			width: 60%;
+		}
+		.iphone-themes-day .sun {
+			width: 40%;
+		}
+		.iphone-themes-night .moon{
+			width: 15%;
+		}
+		.buttom-lines {
+			padding-bottom: 5%;
+		}
+		.iphome-get-app {
+			padding-bottom: 0;
+		}
 	}
-	.header {
-		padding-top: 5% !important;
-	}
-	.navbar {
-		/*position: inherit;*/
-	}
-	.top-block-pad {
-		padding-top: 10%;
-	}
-	.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-		max-height: 100%;
-		width: 100%;
-		margin: 15% 0 0 0;
-		background-color: #333c56;
-		opacity: 0.8;
-	}
- 	.li-support {
-		margin-bottom: 10px;
- 	}
- 	.main-menu {
- 		padding: 2% 10%;
- 	}
-}
-
-@media only screen and (max-width : 745px) {
-	.ios-menu li a {
-		  font-size: 1.6em;
-	}
-	.features-titles h1, .ios-titles h1 {
-		font-size: 2.5em;
-	}
-	.features-titles h3, .comfortable-title h2, .ios-titles h3 {
-		font-size: 1.5em;
-	}
- 	.function-app-left, .centr-featured-iphone {
- 		float: left;
- 		width: 30%;
- 	}
- 	.centr-featured-iphone {
- 		width: 32%;
- 		padding: 0;
- 	}
- 	.functions {
- 		padding-bottom: 5%;
- 	}
- 	.function-box, .function-img-box img, .function-box, .function-img-right-box img {
- 		width: 60%;
- 	}
- 	.function-img-box {
- 		margin-left: 2%;
- 	}
- 	.function-img-box img {
- 		float: right;
- 		margin-right: 20%;
- 	}
- 	.function-right-box {
- 		overflow: hidden;
- 	}
- 	.function-img-right-box {
- 		margin-right: 0;
- 	}
- 	.function-img-right-box img {
- 		margin-left: 20%;
- 	}
- 	.centr-featured-iphone img {
- 		width: 100%;
- 	}
- 	.function-box h3, .function-right-box h3 {
- 		font-size: 1.1em;
- 		margin:0;
- 	}
- 	.function-box span, .function-right-box span {
- 		font-size: 1em;
- 	}
-}
- @media only screen and (max-width : 640px) {
-	.ios-menu {
-		display: none;
-	}
-	.logo-fl {
-		text-align: left;
-		width: 50%;
-	}
-    .logo {
-    	width: 55%;
-    }
-    .main-block .header {
-    	padding-top: 65px;
-    }
-	.main-block {
-		background-image: url("../img/bg_small.png");
-	}
-	.top-head {
-		float: left;
-		width: 45%;
-	}
-	.top-iphone {
-		float: right;
-		width: 55%;
-		padding: 5% 5% 0;
-	}
-	.top-iphone img {
-		width: 100%;
-	}
-	.top-head .nav-content {
-		padding: 10% 0 0 10%;
-	}
-	.top-head .nav-content .title-head {
-		font-size: 1.5em;
-	}
-	.top-head .nav-content .title-l-head {
-		font-size: 1.3em;
-		margin-top: 0;
-	}
-	.button-downl {
-		padding: 0;
-	}
-	.button-downl .btn-1 {
-		width: 100%;
-		float: none;
-		padding: 0;
-	}
-	.about-icon {
-		width: 50%;
-		padding: 5% 5% 5%;
-	}
-	.about-icon img {
-		width: 50%;
-	}
-	.about-icon  h1 {
-		font-size: 1.5em;
-	}
-	.about-icon span {
-		font-size: 1.7em;
-	}
-	.one-about-icon {
-		float: left;
-	}
-	.two-about-icon {
-		float: right;
-	}
-	.iphone-themes-day, .vs, .iphone-themes-night {
-		float: left;
-	}
-	.iphone-themes-day, .iphone-themes-night {
-		width: 40%;
-	}
-	.vs {
-		width: 20%;
-	}
-	.iphone-themes-day .iphone-vs, .iphone-themes-night .iphone-vs{
-		width: 60%;
-	}
-	.iphone-themes-day .sun {
-		width: 40%;
-	}
-	.iphone-themes-night .moon{
-		width: 15%;
-	}
-	.buttom-lines {
-		padding-bottom: 5%;
-	}
-	.iphome-get-app {
-		padding-bottom: 0;
-	}
-}
 
 
-@media only screen and (max-width : 610px) {
-	
-}
+	@media only screen and (max-width : 610px) {
+		
+	}
 
-@media only screen and (max-width : 480px) {
-	.small-sl, .sumsung-sl {
-		display: block;
+	@media only screen and (max-width : 480px) {
+		.small-sl, .sumsung-sl {
+			display: block;
+		}
+		#features, #screens, #get-app, #support  {
+			padding-top: 0;
+		}
+		.list-downl-block, .centr-featured-iphone, .iphone-vs, .vs, .ios-menu, .small-downloaded, .iphome-get-app{
+			display: none;
+		}
+		.logo {
+			width: 55%;
+		}
+		.main-block .header {
+			padding-top: 65px;
+		}
+		.main-block {
+			background-image: url("../img/bg_small.png");
+		}
+		.top-head {
+			float: left;
+			width: 45%;
+		}
+		.top-iphone {
+			float: right;
+			width: 55%;
+			padding: 5% 5% 0;
+		}
+		.top-iphone img {
+			width: 100%;
+		}
+		.top-head .nav-content {
+			padding: 10% 0 0 10%;
+		}
+		.top-head .nav-content .title-head {
+			font-size: 1.5em;
+		}
+		.top-head .nav-content .title-l-head {
+			font-size: 1.3em;
+			margin-top: 0;
+		}
+		.button-downl {
+			padding: 0;
+		}
+		.button-downl .btn-1 {
+			width: 100%;
+			float: none;
+			padding: 0;
+		}
+		.button-downl .btn-1 img {
+			width: 100%;
+			padding: 5% 0 0 0!important;
+		}
+		.about-icon {
+			width: 50%;
+			padding: 5% 5% 5%;
+		}
+		.about-icon img {
+			width: 50%;
+		}
+		.about-icon  h1 {
+			font-size: 1.5em;
+		}
+		.about-icon span {
+			font-size: 1.1em;
+		}
+		.one-about-icon {
+			float: left;
+		}
+		.two-about-icon {
+			float: right;
+		}
+		.features-titles h1, .ios-titles h1 {
+			font-size: 2.5em;
+		}
+		.features-titles h3, .comfortable-title h2, .ios-titles h3 {
+			font-size: 1.5em;
+		}
+		.function-app-left {
+			padding-top: 0;
+			width: 100%;
+		}
+		.functions {
+			padding: 0 5%;
+			width: 100%
+		}
+		.function-box, .function-right-box {
+			text-align: left;
+			padding: 5% 0 0 20%; 
+			width: 100%;
+		}
+		.function-box h3, .function-right-box h3 {
+			font-size: 1.6em;
+		}
+		.function-box span, .function-right-box span {
+			font-size: 1.3em;
+		}
+		.function-box, .function-img-box, .function-img-right-box {
+			float: none;
+			margin-right: 0; 
+		}
+		.function-img-box  img, .function-img-right-box img{
+			float: left;
+			width: 13%;
+			padding-top: 5%; 
+			margin-left: 0;
+		}
+		.function-right-box {
+			width: 84%;
+		}
+		.function-img-right-box img {
+			padding-left: 3%;
+			width: 16%;
+		}
+		.buttom-lines {
+			padding-bottom: 5%;
+		}
+		.iphone-themes-day img {
+			float: none;
+		}
+		.small-iphone-themes {
+			background: url('../img/loght_dark.png') no-repeat;
+			height: 630px;
+			width: 100%;
+			background-position-x: 65%;
+			background-position-y: 50px;
+		}
+		.iphone-themes-day, .iphone-themes-night {
+			padding-top: 0;
+		}
+		.iphone-themes-night {
+			float: right !important;
+		}
+		.moon {
+			margin: 0% 0 0;
+			width: 9%;
+		}
+		.sun {
+			width: 25%
+		}
+		.get-app-titles h3 {
+			padding-bottom: 0;
+			color: #333c56;
+		}
+		.h3-white {
+			color: white !important;
+		}
+		.all-btn-get-app {
+			padding-bottom: 10%;
+		}
+		.get-app-section {
+			background: url('../img/botton_bg_small.png') no-repeat;
+			width: 100%;
+			padding-bottom: 5%;
+		}
+		.sent-form {
+			padding: 8% 10%;
+		}
+		.sent-form input[type="text"] {
+			width: 100%;
+			padding: 4%;
+			margin: 2% 0;
+			font-size: 1.5em;
+		}
+		.sent-form textarea {
+			margin: 5% 0;
+			padding: 4% 4% 15%;
+			border-radius: 25px;
+			font-size: 1.5em;
+		}
+		.sent-form input[type="submit"] {
+			width: 60%;
+			padding: 3%;
+			font-size: 1.5em;
+		}
+		.footer-logo {
+			width: 20%;
+		}
+		.footer span {
+			font-size: 1em;
+		}
+		.button-downl .small-btn img {
+			width: 50%;
+		}
 	}
-	#features, #screens, #get-app, #support  {
-		padding-top: 0;
-	}
-	.list-downl-block, .centr-featured-iphone, .iphone-vs, .vs, .ios-menu, .small-downloaded, .iphome-get-app{
-    	display: none;
-    }
-    .logo {
-    	width: 55%;
-    }
-    .main-block .header {
-    	padding-top: 65px;
-    }
-	.main-block {
-		background-image: url("../img/bg_small.png");
-	}
-	.top-head {
-		float: left;
-		width: 45%;
-	}
-	.top-iphone {
-		float: right;
-		width: 55%;
-		padding: 5% 5% 0;
-	}
-	.top-iphone img {
-		width: 100%;
-	}
-	.top-head .nav-content {
-		padding: 10% 0 0 10%;
-	}
-	.top-head .nav-content .title-head {
-		font-size: 1.5em;
-	}
-	.top-head .nav-content .title-l-head {
-		font-size: 1.3em;
-		margin-top: 0;
-	}
-	.button-downl {
-		padding: 0;
-	}
-	.button-downl .btn-1 {
-		width: 100%;
-		float: none;
-		padding: 0;
-	}
-	.button-downl .btn-1 img {
-		width: 100%;
-		padding: 5% 0 0 0!important;
-	}
-	.about-icon {
-		width: 50%;
-		padding: 5% 5% 5%;
-	}
-	.about-icon img {
-		width: 50%;
-	}
-	.about-icon  h1 {
-		font-size: 1.5em;
-	}
-	.about-icon span {
-		font-size: 1.1em;
-	}
-	.one-about-icon {
-		float: left;
-	}
-	.two-about-icon {
-		float: right;
-	}
-	.features-titles h1, .ios-titles h1 {
-		font-size: 2.5em;
-	}
-	.features-titles h3, .comfortable-title h2, .ios-titles h3 {
-		font-size: 1.5em;
-	}
-	.function-app-left {
-		padding-top: 0;
-		width: 100%;
-	}
-	.functions {
-		padding: 0 5%;
-		width: 100%
-	}
-	.function-box, .function-right-box {
-		text-align: left;
-		padding: 5% 0 0 20%; 
-		width: 100%;
-	}
-	.function-box h3, .function-right-box h3 {
-		font-size: 1.6em;
-	}
-	.function-box span, .function-right-box span {
- 		font-size: 1.3em;
- 	}
-	.function-box, .function-img-box, .function-img-right-box {
-		float: none;
-		margin-right: 0; 
-	}
-	.function-img-box  img, .function-img-right-box img{
-		float: left;
-		width: 13%;
-		padding-top: 5%; 
-		margin-left: 0;
-	}
-	.function-right-box {
-		  width: 84%;
-	}
-	.function-img-right-box img {
-		padding-left: 3%;
-		width: 16%;
-	}
-	.buttom-lines {
-		padding-bottom: 5%;
-	}
-	.iphone-themes-day img {
-		float: none;
-	}
-	.small-iphone-themes {
-		background: url('../img/loght_dark.png') no-repeat;
-  		height: 630px;
-  		width: 100%;
-  		background-position-x: 65%;
-  		background-position-y: 50px;
-	}
-	.iphone-themes-day, .iphone-themes-night {
-		padding-top: 0;
-	}
-	.iphone-themes-night {
-		float: right !important;
-	}
-	.moon {
-		margin: 0% 0 0;
-		width: 9%;
-	}
-	.sun {
-		width: 25%
-	}
-	.get-app-titles h3 {
-		padding-bottom: 0;
-		color: #333c56;
-	}
-	.h3-white {
-		color: white !important;
-	}
-	.all-btn-get-app {
-		padding-bottom: 10%;
-	}
-	.get-app-section {
-		background: url('../img/botton_bg_small.png') no-repeat;
-		width: 100%;
-		padding-bottom: 5%;
-	}
-	.sent-form {
-		padding: 8% 10%;
-	}
-	.sent-form input[type="text"] {
-		width: 100%;
- 		padding: 4%;
- 		margin: 2% 0;
- 		font-size: 1.5em;
-	}
-	.sent-form textarea {
-		margin: 5% 0;
-		padding: 4% 4% 15%;
-		border-radius: 25px;
-		font-size: 1.5em;
-	}
-	.sent-form input[type="submit"] {
-		width: 60%;
-		padding: 3%;
-		font-size: 1.5em;
-	}
-	.footer-logo {
-		width: 20%;
-	}
-	.footer span {
-		font-size: 1em;
-	}
-	.button-downl .small-btn img {
- 		width: 50%;
- 	}
-}
 
-@media only screen and (max-width : 384px) {
-	.top-head .nav-content .title-head {
-		font-size: 1.3em;
+	@media only screen and (max-width : 384px) {
+		.top-head .nav-content .title-head {
+			font-size: 1.3em;
+		}
+		.top-head .nav-content .title-l-head {
+			font-size: 1.1em;
+		}
+		.first-function-box-small {
+			padding: 5% 0 0 37%;
+		}
 	}
-	.top-head .nav-content .title-l-head {
-		font-size: 1.1em;
-	}
-	.first-function-box-small {
-		padding: 5% 0 0 37%;
-	}
-}
 
-@media only screen and (max-width : 320px) {
-	.top-head {
-		width: 48%;
+	@media only screen and (max-width : 320px) {
+		.top-head {
+			width: 48%;
+		}
+		.top-iphone {
+			width: 52%;
+		}
+		.top-head .nav-content .title-head {
+			font-size: 1.1em;
+		}
+		.top-head .nav-content .title-l-head {
+			font-size: 0.9em;
+		}
 	}
-	.top-iphone {
-		width: 52%;
-	}
-	.top-head .nav-content .title-head {
-		font-size: 1.1em;
-	}
-	.top-head .nav-content .title-l-head {
-		font-size: 0.9em;
-	}
-}
