@@ -539,14 +539,60 @@
                 </div>
                 <div class="row support">
                     <div class="col-lg-12">
-                        <form class="sent-form">
-                            <input class="pull-left" type="text" value="Your Name" placeholder="Your Name" onfocus="this.value = ''">   
-                            <input class="pull-right" type="text" value="Email" placeholder="Email" onfocus="this.value = ''">
-                            <textarea class="" name="mes" cols="" rows="" placeholder="Your Message Here..." onfocus="this.value = ''">Your Message Here...</textarea>
-                            <input type="submit" value="Send">
+                        <form action="" method="post" onsubmit="return contactForm(this);"  class="sent-form">
+                            <input class="pull-left" type="text" name="name" placeholder="Your Name" >   
+                            <span class="error-field title-error">Name Error</span>
+                            <input class="pull-right" type="text" name="email" placeholder="Email" onfocus="this.value = ''">
+                            <span class="error-field email-error">Email Error</span>
+                            <textarea class="" name="mes" placeholder="Your Message Here..." ></textarea>
+                            <span class="error-field mess-error">Mess Error</span>
+                            <input type="submit" value="Send"><span class="done">text</span>
                         </form>
                     </div>
                 </div>
+
+<?php
+if(isset($_POST['submit'])) {
+
+        $name = $_POST['name'];
+        $mail = $_POST['email'];
+        $mess =  $_POST['mess'];
+        $to = 'lebedeva.kait@gmail.com'; //'lebedeva.kait@gmail.com'; 
+        //mail($to, $title, $mess, $phone, 'From:'.$email); 
+        $message = "
+                Name: $name <br>
+                Email: $mail  <br>
+                Phone: $phone  <br>
+                mess: $mess  <br>
+        ";
+
+
+        $email = new PHPMailer();
+        $email->CharSet = 'UTF-8';
+        $email->IsSMTP(); // enable SMTP
+        $email->SMTPDebug = 0;
+        $email->SMTPAuth = true;
+        $email->SMTPSecure = "tls";
+        $email->Host = "smtp.gmail.com";
+        $email->Port = 587; // or 465  587
+        $email->IsHTML(true);
+        $email->Username = "server@adorika.com";
+        $email->Password = "ador2929";
+        $email->SetFrom("info@unigent.com");
+
+        $email->FromName  = 'Unigent';
+        $email->Subject   = 'מייל מצור קשר חיפוש משרה';
+        $email->Body      = $message;
+        $email->AddAddress( 'lebedeva.kait@gmail.com' );
+
+        if($email->Send()){
+            $send = true;
+            echo "success!!!";
+
+        }
+}
+
+?>
                 <div class="row footer">
                     <div class="col-lg-4 col-lg-offset-4">
                         <img class="footer-logo" src="img/logo.png">
@@ -615,5 +661,11 @@
         <!--<script type="text/javascript" src="js/jquery.malihu.PageScroll2id.js"></script>-->
         <script src="js/jquery.easing.min.js"></script>
         <script src="js/SmoothScroll.js"></script>
+
+        
+        <!-- Form -->
+        <script type="text/javascript" src="js/form.js"></script>
+
+
     </body>
 </html>
