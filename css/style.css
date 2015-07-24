@@ -183,7 +183,7 @@ a:hover {
 }
 .btn-1 {
 	float: right;
-	padding-left: 34px;
+	margin-left: 34px;
 }
 .about-icon {
 	text-align: center;
@@ -628,6 +628,13 @@ hr {
 }
 .privacy_btn{
 	width: 15%;
+}
+.page_bot_list li {
+    list-style: none;
+}
+.page_bot_list li a {
+	 color: white;
+    font-size: 1.5em;
 }
 /*Privacy*/
 
