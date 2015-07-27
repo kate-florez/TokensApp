@@ -1,12 +1,13 @@
 <?php
 
-require 'vendor\phpmailer\phpmailer\PHPMailerAutoload.php';
+require 'vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
 
 $name = 'Михаил';
 $mail = 'dsfdsfdsf@ya.ru';
 $mess = 'test test';
+$phone = '12321213';
+$to = 'lebedeva.kait@gmail.com'; 
 //$to = 'lebedeva.kait@gmail.com'; 
-$to = 'proger.mixa@gmail.com'; 
 $message = "
 Name: $name <br>
 Email: $mail  <br>
@@ -43,3 +44,5 @@ if ($result) {
     $send = true;
     echo "success!!!";
 }
+
+?>

@@ -1,5 +1,6 @@
 <?php
-require 'vendor\phpmailer\phpmailer\PHPMailerAutoload.php';
+
+require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
 
 ?>
 
@@ -551,19 +552,19 @@ require 'vendor\phpmailer\phpmailer\PHPMailerAutoload.php';
                             <span class="error-field email-error">Email Error</span>
                             <textarea class="" name="mes" placeholder="Your Message Here..." ></textarea>
                             <span class="error-field mess-error">Mess Error</span>
-                            <input type="submit" value="Send"><span class="done">text</span>
+                            <input type="submit" name="submit" value="Send"><span class="done">text</span>
                         </form>
                     </div>
                 </div>
 
                 <?php
-                if (isset($_POST['submit'])) {
 
+                if (isset($_POST['submit'])) {
                     $name = $_POST['name'];
                     $mail = $_POST['email'];
                     $mess = $_POST['mess'];
                     //$to = 'lebedeva.kait@gmail.com';
-                    $to = 'proger.mixa@gmail.com';
+                    $to = 'lebedeva.kait@gmail.com';
                     $message = "
                     Name: $name <br>
                     Email: $mail  <br>
@@ -591,6 +592,8 @@ require 'vendor\phpmailer\phpmailer\PHPMailerAutoload.php';
                     $email->AddAddress($to);
 
                     $send = $email->Send();
+
+                    /*var_dump($send);exit;*/
 
                     if ($send) {
                         echo "success!!!";
