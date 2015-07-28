@@ -102,8 +102,8 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             </div>
 
                             <div class="button-downl">
-                                <a class="btn-1" href="https://play.google.com/store/apps/details?id=com.tokensapp&hl=ru"><img src="img/btn-1.png"></a>
-                                <a class="btn-1" href="https://itunes.apple.com/us/app/tokensapp-free-chat-messenger/id953068051?mt=8"><img src="img/btn-2.png"></a>
+                                <a class="btn-1" target="_blank" href="https://play.google.com/store/apps/details?id=com.tokensapp&hl=ru"><img src="img/btn-1.png"></a>
+                                <a class="btn-1" target="_blank" href="https://itunes.apple.com/us/app/tokensapp-free-chat-messenger/id953068051?mt=8"><img src="img/btn-2.png"></a>
                             </div>
                         </div>
                     </div>
@@ -507,8 +507,8 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                 <div class="row all-btn-get-app">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="button-downl">
-                            <a class="" href="https://play.google.com/store/apps/details?id=com.tokensapp&hl=ru"><img class="get-app-image-googlePlay" src="img/btn-1.png"></a>
-                            <a class="" href="https://itunes.apple.com/us/app/tokensapp-free-chat-messenger/id953068051?mt=8"><img class="get-app-image-googlePlay pull-right" src="img/btn-2.png"></a>
+                            <a class="" target="_blank" href="https://play.google.com/store/apps/details?id=com.tokensapp&hl=ru"><img class="get-app-image-googlePlay" src="img/btn-1.png"></a>
+                            <a class="" target="_blank" href="https://itunes.apple.com/us/app/tokensapp-free-chat-messenger/id953068051?mt=8"><img class="get-app-image-googlePlay pull-right" src="img/btn-2.png"></a>
                         </div>
                     </div>
                 </div>
@@ -631,9 +631,9 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <li>
                                 <a href="terms.html"><span>Terms of service</span></a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="terms.html"><span>For publishers</span></a>
-                            </li>
+                            </li> -->
                         </ul>
                         <span>Copyright @2015.TokensApp</span>
                     </div>
