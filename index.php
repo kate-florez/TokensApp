@@ -75,31 +75,28 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <h3 class="title-l-head">
                                 Gather your friends for sincere talk, share big joys and little tragedies of yours. One chat app for all.
                             </h3>
-                            <div class="list-downl-block">
+                            <div class="list-downl-block vis_hidden">
                                 <ul class="list-download">
                                     <li>
                                         <a class="apl"></a>
                                         <div class="titles-downl">
-                                            <h2>6789k</h2>
+                                            <h2>k</h2>
                                             <span>Downloaded</span>
                                         </div>
-
                                     </li>
                                     <li>
                                         <a class="ap2"></a>
                                         <div class="titles-downl">
-                                            <h2>978k</h2>
+                                            <h2>k</h2>
                                             <span>IOS Users</span>
                                         </div>
-
                                     </li>
                                     <li>
                                         <a class="ap3"></a>
                                         <div class="titles-downl">
-                                            <h2>888k</h2>
+                                            <h2>k</h2>
                                             <span>Android Users</span>
                                         </div>
-
                                     </li>
                                 </ul>	
                             </div>
@@ -149,7 +146,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1 features-titles">
-                        <h1>Features at a Glace</h1>
+                        <h1>Features at a Glance</h1>
                         <h3>Discover our basic features created to make your communication easy, free and pleasant.</h3>
                     </div>
                 </div>
@@ -517,7 +514,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                 </div>
                 <div class="row small-downloaded">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class="get-app-list-downl-block">
+                        <div class="get-app-list-downl-block vis_hidden">
                             <ul class="list-download get-app-list-download">                                
                                 <li class="display-inl-bl">                                 
                                     <div class="titles-downl">
@@ -629,7 +626,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                         </ul>
                         <ul class="link_to_page">
                             <li>
-                                <a href="privacy.html"><span>Pivacy policy</span></a>
+                                <a href="privacy.html"><span>Privacy policy</span></a>
                             </li>
                             <li>
                                 <a href="terms.html"><span>Terms of service</span></a>

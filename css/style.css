@@ -489,6 +489,10 @@ hr {
 .link_to_page li a:hover {
 	text-decoration: none;
 }
+.vis_hidden {
+	visibility: hidden;
+}
+
 
 /*Scroll*/
 .top-nav-collapse ul.nav.navbar-nav.navbar-right.main-menu li.active a {
