@@ -45,11 +45,11 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                                                     </button>
                                                 </div>
                                                 <div class="logo-fl pull-left">
-                                                    <img class="logo" src="img/logo.png">	
+                                                    <img class="logo" src="img/logo.png">   
                                                 </div>
 
 
-                                                <div class="collapse navbar-collapse navbar-responsive-collapse menu-collap" id="myNavbar">	
+                                                <div class="collapse navbar-collapse navbar-responsive-collapse menu-collap" id="myNavbar"> 
 
                                                     <ul class="nav navbar-nav navbar-right main-menu">
                                                         <li><a href="#about">About</a></li>
@@ -58,7 +58,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                                                         <li class="get-app"><a class="get-app-link" href="#get-app">Download now</a></li>
                                                         <li class="li-support"><a class="support-small" href="#support">Support</a></li>
                                                     </ul>
-                                                </div>								
+                                                </div>                              
 
                                             </div>
                                         </nav>
@@ -98,7 +98,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                                             <span>Android Users</span>
                                         </div>
                                     </li>
-                                </ul>	
+                                </ul>   
                             </div>
 
                             <div class="button-downl">
@@ -133,7 +133,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                         <span>Join interesting thematic public chats, just select your topic or star and follow. </span>
                     </div>
                     <div class="col-xs-12">
-                    	<h3 class="title_future_fun">
+                        <h3 class="title_future_fun">
                                 More exciting and fun features are to come in the nearest future.
                         </h3>
                     </div>
@@ -159,7 +159,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <div class="function-box first-function-box-small">
                                 <h3>Universal Inbox</h3>
                                 <span>Your friendly assistant in daily correspondence</span>
-                            </div>	
+                            </div>  
                         </div>
                         <div class="functions">
                             <div class="function-img-box">
@@ -168,7 +168,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <div class="function-box first-function-box-small">
                                 <h3>Contact Book</h3>
                                 <span>Automatic link with social accounts & phone book</span>
-                            </div>	
+                            </div>  
                         </div>
                         <div class="functions">
                             <div class="function-img-box">
@@ -177,7 +177,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <div class="function-box first-function-box-small">
                                 <h3>Live Chat</h3>
                                 <span>‘All-inclusive’ chat version for the most demanded users</span>
-                            </div>	
+                            </div>  
                         </div>
                         <div class="functions">
                             <div class="function-img-box">
@@ -186,7 +186,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <div class="function-box first-function-box-small">
                                 <h3>Dark Edition</h3>
                                 <span>Part of yin-yang theme, what’s your choice?</span>
-                            </div>	
+                            </div>  
                         </div>
                         <div class="functions">
                             <div class="function-img-box">
@@ -195,7 +195,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <div class="function-box first-function-box-small">
                                 <h3>Group Chats</h3>
                                 <span>Have a cool virtual party with close friends or enjoy group debates</span>
-                            </div>	
+                            </div>  
                         </div>
                     </div>
                     <div class="col-lg-4 centr-featured-iphone">
@@ -209,7 +209,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <div class="function-right-box">
                                 <h3>Sharing Media</h3>
                                 <span>Share emotions variety via photo, video, and audio</span>
-                            </div>	                            
+                            </div>                              
                         </div>
                         <div class="functions">
                             <div class="function-img-right-box">
@@ -218,7 +218,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <div class="function-right-box">
                                 <h3>Voice Messages</h3>
                                 <span>Stay connected and do not miss a single thing</span>
-                            </div>	
+                            </div>  
                         </div>
                         <div class="functions">
                             <div class="function-img-right-box">
@@ -227,7 +227,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <div class="function-right-box">
                                 <h3>Public Chats</h3>
                                 <span>All VIP celebrities’ chats to read and to follow</span>
-                            </div>	
+                            </div>  
                         </div>
                         <div class="functions">
                             <div class="function-img-right-box">
@@ -236,7 +236,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <div class="function-right-box">
                                 <h3>User’s Profile</h3>
                                 <span>introduce yourself with a top creative profile</span>
-                            </div>	
+                            </div>  
                         </div>
                         <div class="functions">
                             <div class="function-img-right-box">
@@ -245,7 +245,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <div class="function-right-box">
                                 <h3>Your Settings</h3>
                                 <span>Adjust everything the way you see it</span>
-                            </div>	
+                            </div>  
                         </div>
                     </div>
                 </div>
@@ -306,7 +306,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             </ul>
                             <div class="tab-content">
                                 <div class="tab-pane active" id="tab1">
-                                    <p>							
+                                    <p>                         
                                     <div class="dg-container">
                                         <div class="dg-wrapper">
                                             <a ><img src="img/iphone_gallery/all/side/s-chat01.png" alt="image01"><div>Public Chats</div></a>
@@ -350,12 +350,12 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                                             <a ><img src="img/iphone_gallery/all/side/s-dark08.png" alt="image33"><div>Dark</div></a>
 
                                         </div>
-                                    </div>		
+                                    </div>      
 
                                     </p>
                                 </div>
                                 <div class="tab-pane" id="tab2">
-                                    <p>					      	
+                                    <p>                         
                                     <div class="dg-container">
                                         <div class="dg-wrapper">
                                             <a><img src="img/iphone_gallery/all/side/reg_side01.png" alt="image23"><div>Registration</div></a>
@@ -366,7 +366,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                                     </p>
                                 </div>
                                 <div class="tab-pane" id="tab3">
-                                    <p>					      	
+                                    <p>                         
                                     <div class="dg-container">
                                         <div class="dg-wrapper">
                                             <a><img src="img/iphone_gallery/chats/side/s-chat01.png" alt="image01"><div>Public Chats</div></a>
@@ -445,7 +445,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <ul class="nav nav-tabs ios-menu">
                                 <li class="active"><a href="#tab-a1" data-toggle="tab" data-tab-carousel="dg-container" data-tab-carousel-type="1">All</a></li>
                                 <li><a href="#tab-a2" data-toggle="tab" data-tab-carousel="dg-container" data-tab-carousel-type="1">Sing Up</a></li>
-                                <li><a href="#tab-a3" data-toggle="tab" data-tab-carousel="dg-container" data-tab-carousel-type="1">Chats</a></li>					    
+                                <li><a href="#tab-a3" data-toggle="tab" data-tab-carousel="dg-container" data-tab-carousel-type="1">Chats</a></li>                      
                             </ul>
                             <div class="tab-content">
                                 <div class="tab-pane active part-slider" id="tab-a1">
@@ -562,6 +562,9 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                             <textarea class="" name="mes" placeholder="Your Message Here..." ></textarea>
                             <span class="error-field mess-error">Mess Error</span>
                             <input type="submit" name="submit" value="Send"><span class="done error-field">text</span>
+                            <div class="dialog_modal">
+                                <h1>Your message was send</h1>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -572,13 +575,12 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                     $name = $_POST['name'];
                     $mail = $_POST['email'];
                     $mess = $_POST['mess'];
-                    //$to = 'lebedeva.kait@gmail.com';
                     $to = 'lebedeva.kait@gmail.com';
+                    // $to = 'support@tokensapp.com';
                     $message = "
                     Name: $name <br>
                     Email: $mail  <br>
-                    Phone: $phone  <br>
-                    mess: $mess  <br>
+                    Mess: $mess  <br>
                     ";
 
 
@@ -595,8 +597,8 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                     $email->Password = "ador2929";
                     $email->SetFrom("info@unigent.com");
 
-                    $email->FromName = 'Unigent';
-                    $email->Subject = '???? ???? ??? ????? ????';
+                    $email->FromName = 'TokesApp';
+                    $email->Subject = 'TokesApp support';
                     $email->Body = $message;
                     $email->AddAddress($to);
 
