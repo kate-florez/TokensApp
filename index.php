@@ -595,7 +595,7 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                     $email->IsHTML(true);
                     // $email->Username = "";
                     // $email->Password = "";
-                    // $email->SetFrom("info@unigent.com");
+                    $email->SetFrom(" test@example.com");
 
                     $email->FromName = 'TokesApp';
                     $email->Subject = 'TokesApp support';
