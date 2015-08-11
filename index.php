@@ -591,11 +591,11 @@ require_once ('vendor/phpmailer/phpmailer/PHPMailerAutoload.php');
                     // $email->SMTPAuth = true;
                     // $email->SMTPSecure = "";
                     // $email->Host = "";
-                    // $email->Port = ;
-                    // $email->IsHTML(true);
+                    $email->Port = 587;
+                    $email->IsHTML(true);
                     // $email->Username = "";
                     // $email->Password = "";
-                    // $email->SetFrom("");
+                    // $email->SetFrom("info@unigent.com");
 
                     $email->FromName = 'TokesApp';
                     $email->Subject = 'TokesApp support';
